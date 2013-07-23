@@ -4,16 +4,10 @@
 }
 
 body{
+	background-image:url('./images/HexagonBG.png');
 	background-color:#DCD8CF;
 	padding: 0px 0px 0px 0px;
 }
-
-/* 
-.container-fluid{
-	height:100%;
-	background-color:#000000;	
-}
- */
 
 h1{
 	font-size: 90px;
@@ -42,7 +36,7 @@ h1{
 	height:40px;
 	color: #b1ada5;
 	padding-left:21.5%;
- 	/* background-color:#000000; */
+ 	/* background-color:#E25D33; */
 }
 
 #title{
