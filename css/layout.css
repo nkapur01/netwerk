@@ -7,6 +7,7 @@ body{
 	background-image:url('./images/HexagonBG.png');
 	background-color:#DCD8CF;
 	padding: 0px 0px 0px 0px;
+	overflow-x: hidden;
 }
 
 h1{
@@ -26,7 +27,6 @@ h1{
 	-webkit-border-radius:0;
 	-moz-border-radius:0;
 	border-radius:0;
-
 }
 
 .footer{
@@ -36,6 +36,7 @@ h1{
 	height:40px;
 	color: #b1ada5;
 	padding-left:21.5%;
+	width: auto;
  	/* background-color:#E25D33; */
 }
 
