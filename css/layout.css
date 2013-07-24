@@ -40,6 +40,10 @@ h1{
  	/* background-color:#E25D33; */
 }
 
+.btn btn-success{
+	background-color: #E25D33
+}
+
 #title{
 	padding: 200px 0px 50px 0px;
 }
