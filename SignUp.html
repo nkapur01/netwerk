@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<title>Sign Up</title>
+    	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    	<link href="css/layout.css" rel="stylesheet">
+			<script src="js/jquery.js"></script>
+		<!--	<script src="js/jquery.cookie.js"></script> -->
+    	<script src="js/bootstrap.js"/></script>
+	</head>
+
+	<body>
+		<div class="navbar navbar-inverse">
+			<div class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<ul class="nav">
+						<li><a href="./index.html">HOME</a></li>
+						<li><a href="./About.html">ABOUT</a></li>	
+						<li><a href="#myModal" data-toggle="modal">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="myModalLabel">Contact</h3>
+			</div>
+		  	<div class="modal-body">
+				<p>Questions? Concerns? Interview requests? Direct all your inquiries to kapauzer@gmail.com, and we'll get back to you before you can say "brket."</p>
+		  	</div>
+		  	<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</div>
+  <body>
+ 	    <div class="container">
+<div class="well">
+      <form id="signup" class="form-horizontal" <span id="IL_AD3" class="IL_AD">method</span>="post" action="success.php">
+		<legend>Sign Up</legend>
+		<div class="wizard">
+			<a><span class="badge">1</span> Account Information</a>
+			<a><span class="badge">2</span> Specify Entry Scheme</a>
+			<a class="current"><span class="badge badge-inverse">3</span> Create Test Entry</a>
+    		<a><span class="badge">4</span> Check Your Data and Generate Portal</a>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">First Name</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-user"></i></span>
+					<input type="text" class="input-xlarge" id="fname" name="fname" placeholder="First Name">
+				</div>
+			</div>
+		</div>
+		<div class="control-group ">
+	        <label class="control-label">Last Name</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-user"></i></span>
+					<input type="text" class="input-xlarge" id="lname" name="lname" placeholder="Last Name">
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Email</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-envelope"></i></span>
+					<input type="text" class="input-xlarge" id="email" name="email" placeholder="Email">
+				</div>
+			</div>
+		</div>
+		<div class="control-group ">
+	        <label class="control-label">Username</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-leaf"></i></span>
+					<input type="text" class="input-xlarge" id="username" name="username" placeholder="Username">
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Gender</label>
+			<div class="controls">
+
+					<p><div id="gender" name="gender" class="btn-group" data-toggle="buttons-radio">
+                    <button type="button" class="btn btn-info">Male</button>
+                    <button type="button" class="btn btn-info">Female</button>
+
+                  </div></p>
+
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Password</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-lock"></i></span>
+					<input type="Password" id="passwd" class="input-xlarge" name="passwd" placeholder="Password">
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Confirm Password</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-lock"></i></span>
+					<input type="Password" id="conpasswd" class="input-xlarge" name="conpasswd" placeholder="Re-enter Password">
+				</div>
+			</div>
+		</div>
+
+		<div class="control-group">
+		<label class="control-label"></label>
+	      <div class="controls">
+	       <button type="submit" class="btn btn-success" >Create <span id="IL_AD1" class="IL_AD">My Account</span></button>
+
+	      </div>
+
+	</div>
+
+	  </form>
+
+   </div>
+</div>
