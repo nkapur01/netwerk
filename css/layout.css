@@ -142,3 +142,9 @@ h1{
 .wizard a:not(.current):hover {
 	color:#08C;
 }
+
+.2column{
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Safari and Chrome */
+	column-count: 2;
+}
