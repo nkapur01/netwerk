@@ -4,7 +4,7 @@
 }
 
 body{
-	background-image:url('./images/HexagonBG.png');
+	background-image:url('./images/small-crackle-bright.png');
 	background-color:#DCD8CF;
 	padding: 0px 0px 0px 0px;
 	overflow-x: hidden;
@@ -56,6 +56,10 @@ h1{
 #buttons{
 	text-align:center;
 	padding-bottom:20px;
+}
+
+#signup{
+	padding-top: 80px;
 }
 
 
