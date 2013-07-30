@@ -42,15 +42,25 @@
 				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 			</div>
 		</div>
-		<div class="container-fluid">	
-			<div class="row-fluid" id="title">
-				<h1>Title</h1>	
-				<div class="row-fluid" id="buttons">
-					<div id="browse_app">
-						<a class="btn btn-large btn-info" href="./signup.html">SIGN UP</a>&nbsp;&nbsp;&nbsp;
-  						<a class="btn btn-large btn-info" href="#">SIGN IN</a>
-					</div>				
+		
+		
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span5" id="title">
+					<h1>Title</h1>
 				</div>	
+				<div class="span3 offset1" id="signup">
+					<form class="form-signin" >
+						<h4 class=" text-center newAccountText">Sign Up | Join Brcket today</h4>
+						<input id="firstname" type="text" class="input-block-level expand" placeholder="First Name">
+						<input id="lastname" type="text" class="input-block-level expand" placeholder="Last Name">
+						<input id="email" type="email" class="input-block-level expand" placeholder="Your .edu email address">
+						<input id="password" type="password" class="input-block-level expand" placeholder="Password">
+						<input id= "password2" type="password" class="input-block-level expand" placeholder="Re-enter Password">	
+						<input class="btn" type="button" onclick="checkpass()" value="Sign Up Now!"/>										 			
+					</form>
+				</div>
+			</div>
 				<div class="row-fluid" id="buttons">
 					<div id="linkedin">
 						<script type="in/Login">
@@ -58,7 +68,8 @@
 						</script>
 					</div>
 				</div>	
-			</div>
+			</div>			
 		</div>
+		
 	</body>
 </html>
