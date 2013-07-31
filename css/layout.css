@@ -4,7 +4,7 @@
 }
 
 body{
-	background-image:url('./images/HexagonBG.png');
+	background-image:url('./images/small-crackle-bright.png');
 	background-color:#DCD8CF;
 	padding: 0px 0px 0px 0px;
 	overflow-x: hidden;
@@ -58,6 +58,14 @@ h1{
 	padding-bottom:20px;
 }
 
+<<<<<<< HEAD
+=======
+#signup{
+	padding-top: 80px;
+}
+
+
+>>>>>>> 07183ee981be642624e51dada37122f60d8938b4
 .wizard{
 	padding: 1% 0% 3% 0%;
 	text-align: center;
