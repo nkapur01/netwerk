@@ -64,7 +64,14 @@ h1{
 	padding-left:30px;
 }
 
+.left{
+	float:left;
+	padding: 0px 3px 0px 3px;
+}
 
+#signupbtn{
+	text-align:center;
+}
 .wizard{
 	padding: 1% 0% 3% 0%;
 	text-align: center;
