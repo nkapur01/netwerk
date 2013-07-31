@@ -4,7 +4,7 @@
 }
 
 body{
-	background-image:url('./images/small-crackle-bright.png');
+	background-image:url('./images/HexagonBG.png');
 	background-color:#DCD8CF;
 	padding: 0px 0px 0px 0px;
 	overflow-x: hidden;
@@ -49,19 +49,13 @@ h1{
 }
 
 #title{
-	padding: 200px 0px 50px 450px;
+	padding: 200px 0px 50px 0px;
 }
 
 
 #buttons{
 	text-align:center;
 	padding-bottom:20px;
-}
-
-
-#signup{
-	padding-top: 80px;
-	padding-left:30px;
 }
 
 
@@ -129,7 +123,7 @@ h1{
 
 .wizard a:first-child .badge {
     margin-left: 0;
-} 
+}
 
 .wizard .current {
     background: #007ACC;

@@ -58,13 +58,14 @@ h1{
 	padding-bottom:20px;
 }
 
-
+<<<<<<< HEAD
+=======
 #signup{
 	padding-top: 80px;
-	padding-left:30px;
 }
 
 
+>>>>>>> 07183ee981be642624e51dada37122f60d8938b4
 .wizard{
 	padding: 1% 0% 3% 0%;
 	text-align: center;
@@ -129,7 +130,7 @@ h1{
 
 .wizard a:first-child .badge {
     margin-left: 0;
-} 
+}
 
 .wizard .current {
     background: #007ACC;
