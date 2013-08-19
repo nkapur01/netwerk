@@ -1,3 +1,2 @@
-A .txt readme, instead of a .md
-
-Neena's test contribution
+Netwerking (working title) application to "leverage connections and expand your network"
+Audience: undergraduate students (test group: UChicago, Tufts)
